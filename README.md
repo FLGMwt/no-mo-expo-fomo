@@ -8,10 +8,19 @@ To demonstrate the minimal path to setting up each tech, all setups will be done
 
 Most hacks require changes in dependencies so I rely heavily on the wonderful [patch-package](https://github.com/ds300/patch-package). When I add a patch to a compiled dependency, I'll add the diff to compiled bundle as well as duplicate it to the source for readability if source is included in the package.
 
-Ideally, I'll find a way to turn the hacks into proper upstream fixes, but when that's not possible, I hope this serves as a useful guide to get some things working:
+Ideally, I'll find a way to turn the hacks into proper upstream fixes, but when that's not possible, I hope this serves as a useful guide to get some things working.
+
+Branches:
+
+- react-navigation@5, hacks to get react-native-web working: 
+  - PR: https://github.com/FLGMwt/no-mo-expo-fomo/pull/1
+  - Diff only: https://github.com/FLGMwt/no-mo-expo-fomo/compare/react-navigation-5
+  - Branch: https://github.com/FLGMwt/no-mo-expo-fomo/tree/react-navigation-5
+ 
+
 
 TODO:
 
 - [ ] Cavy
 - [ ] Miragejs
-- [ ] react-navigation@5
+- [x] react-navigation@5
