@@ -1,0 +1,7 @@
+diff --git a/node_modules/@react-native-community/masked-view/js/MaskedView.web.js b/node_modules/@react-native-community/masked-view/js/MaskedView.web.js
+new file mode 100644
+index 0000000..461f67a
+--- /dev/null
++++ b/node_modules/@react-native-community/masked-view/js/MaskedView.web.js
+@@ -0,0 +1 @@
++export default () => null;
